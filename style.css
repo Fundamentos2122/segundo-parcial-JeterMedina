@@ -294,6 +294,12 @@ textarea {
     content: ",";
 }
 
+@media (min-width: 768px){
+    .flex[data-state~="wrap"] {
+        flex-wrap: wrap;
+    }
+}
+
 /*****EXCEPTIONS*****/
 .card[data-state="hide"] {
     opacity: 0;
